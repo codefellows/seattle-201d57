@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Jack Daniel Kinne -->
+  <meta charset="UTF-8">
+
+  <!-- <script src="first.js"></script> -->
+
+  <!-- <link rel="stylesheet" type="text/css" href="first.css"> -->
+
+  <title>
+    Cthulu loves you.
+  </title>
+
+  <!-- Style begins -->
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      border-radius: 3em;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font: bold;
+    }
+
+    main {
+      margin-top: 60px;
+      display: block;
+    }
+
+    .centered {
+      text-align: center;
+      font: 75;
+    }
+
+    footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: purple;
+      transition: 0.5s;
+    }
+
+    header {
+      overflow: hidden;
+      background-color: purple;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      transition: 0.5s;
+    }
+
+    #author,
+    #corp {
+      color: #201d57;
+      font: bold;
+    }
+
+    h1 {
+      margin-top: 5%;
+      float: left;
+      transition: 0.5s;
+    }
+
+    article {
+      margin-top: 5%;
+      float: right;
+      transition: 0.5s;
+    }
+
+    h1:hover {
+      color: red;
+    }
+
+    article:hover {
+      color: red;
+    }
+
+    header:hover {
+      opacity: .5;
+    }
+
+    footer:hover {
+      opacity: .5;
+    }
+
+    /* type writer code from here: https://css-tricks.com/snippets/css/typewriter-effect/ */
+
+    .typewriter {
+      color: #fff;
+      font-family: monospace;
+      overflow: hidden;
+      /* Ensures the content is not revealed until the animation */
+      border-right: .15em solid orange;
+      /* The typwriter cursor */
+      white-space: nowrap;
+      /* Keeps the content on a single line */
+      margin: 0 auto;
+      /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em;
+      /* Adjust as needed */
+      animation:
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+    }
+
+    /* The typing effect */
+    @keyframes typing {
+      from {
+        width: 0
+      }
+
+      to {
+        width: 100%
+      }
+    }
+
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+
+      from,
+      to {
+        border-color: transparent
+      }
+
+      50% {
+        border-color: orange
+      }
+    }
+  </style>
+
+  <!-- Begin JavaScript -->
+  
+
+</head>
+
+<body>
+
+  <header class="centered">
+    <p>
+      This example brought to you by the <span id="corp">Umbrella Corporation.</span>
+    </p>
+  </header>
+
+  <main>
+    <h1>Class 1 Lab</h1>
+    <article>
+      <p class="typewriter">Hey there. Do you long for the old ones to rise?<br>
+        Are you ready to experience the rapture of nothingness?<br>
+        ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn?<br>
+        Interested in networking for the apocalypse?</p>
+    </article>
+  </main>
+
+
+  <footer class="centered">
+    <p>
+      Copyright <span id="author">Jack Daniel Kinne</span> and the unnamed ones who sleep below.
+    </p>
+  </footer>
+
+
+  <script>
+
+    // prompts and alerts regarding username
+    var username = prompt('What is your name');
+    var first = 'Hey there ' + username + ' welcome to the site.';
+    alert(first);
+    var years = 10;
+    var daysInYear = 365;
+    var daysInDecade = years * daysInYear;
+
+    alert(years * daysInYear);
+
+    // days in a year times years in a decade
+    alert(365 * 10);
+
+    var ice = prompt('what\s your favorite icecream?');
+    throw new Error();
+    var second = ice + ' eh, ' + username + '?  My favorite is sadness.';
+    alert(second);
+    console.log('ice : ' + ice);
+
+    var plan = prompt('Have a go bag packed for the end of the world?');
+    var third = plan + '!? ' + username + ' I hope you packed some ' + ice + '.';
+    alert(third);
+    console.log('plan : ' + plan);
+
+    var elder = prompt('Who\s your favorite elder God of the deep?');
+    var fourth = username + ', ' + elder + ' is an interesting choice. Hey, maybe they like ' + ice + '. ' + plan + '?';
+    alert(fourth);
+    console.log('elder : ' + elder);
+
+    console.log('username : ' + username);
+
+
+  </script>
+</body>
+
+</html>
