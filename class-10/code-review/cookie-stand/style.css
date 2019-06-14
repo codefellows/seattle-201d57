@@ -1,0 +1,135 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+}
+table, th, td {
+  border: 1px solid black;
+  height: 200;
+  width: 300;
+}
+*{
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  height: 95px;
+  background-color: whitesmoke;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+main {
+  width: 960px;
+  margin: auto;
+}
+
+footer {
+  background-color: #444;
+  height: 150px;
+}
+
+nav {
+  width: 960px;
+  margin: auto;
+}
+
+nav > ul {
+  position: absolute;
+  top: 50%;
+  height: 70px;
+  margin-top: -35px
+}
+
+nav > ul > li {
+  float: left;
+  margin-right: 50px;
+  line-height: 60px;
+  color: whitesmoke;
+}
+;
+nav > ul > li:first-child {
+  margin-right: 25px;
+}
+
+main > img:first-child {
+  margin-bottom: 30px;
+}
+
+main > ul > li {
+  float: left;
+  /* margin-right: 30px; */
+}
+
+main > ul > li:nth-child(3n + 2) {
+  margin: 0 30px;
+}
+
+main > ul {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+main > article {
+  margin-bottom: 30px;
+}
+
+main > article > section{
+  width: 50%;
+  float: right;
+  padding-left: 30px
+}
+
+section {
+  position: relative;
+  height: 400px;
+}
+
+section > button {
+  width: 150px;
+  height: 35px;
+  background-color: #111;
+  color: #eee;
+  position: absolute;
+  bottom: 0px;
+}
+
+section > button:hover {
+  background-color: #eee;
+  color: #111;
+  transition: 50ms;
+  transition-timing-function: ease-in;
+  transition-delay: 100ms;
+  cursor: pointer;
+}
+
+h3 { 
+  font-size: 1.3em;
+  margin-bottom: 7px;
+}
+
+section div{
+  font-size: 1em;
+  overflow: hidden;
+  height: 339px;
+}
+
+p{
+  overflow-y: scroll;
+}
+
+/* main > ul > li:nth-of-type(3) {
+  margin: 0;
+} */
