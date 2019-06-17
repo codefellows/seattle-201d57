@@ -85,7 +85,10 @@ What kind of content should be in the README?
 - Information on the license
 - Acknowledgements, etc.
 
-Take a look at the following suggested structures. Note the similarities and differences; there is no absolute right/wrong approach. Consider the information that would be helpful to users of your project, and then set one up that is appropriate to your project:
+#### [README-template](../../resources/handouts-graphics/README-template) -  The default 201 README template
+
+Also take a look at the following suggested structures. Note the similarities and differences; there is no absolute right/wrong approach. Consider the information that would be helpful to users of your project, and then set one up that is appropriate to your project:
+
 
 * [README-Template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) by GitHub user [PurpleBooth](https://gist.github.com/PurpleBooth)
 * [README](https://gist.github.com/jxson/1784669) by GitHub user [jxson](https://gist.github.com/jxson)
