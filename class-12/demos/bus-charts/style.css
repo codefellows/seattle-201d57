@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+
+img {
+  float: left;
+  margin-right: 30px;
+  width: 300px;
+}
+
+div:last-child img{
+  margin-right: 0;
+}
+
+main {
+  width: 960px;
+  margin: auto;
+}
+
+section#results {
+  width: 660px;
+  margin: auto;
+}
