@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+.middle {
+  display:block;
+  margin:auto;
+  width:35%;
+
+}
+body {
+  background: #282828;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main table tr td img {
+  width: 310px;
+  height:310px;
+  border: 1px solid black;
+  border-radius:5px;
+}
+main table tr td img:hover {
+  box-shadow: 5px 5px  #2c4349;
+}
+main {
+  width:960px;
+  margin: auto;
+}
+.content {
+  background: #d8d8d8;
+  color: #282828;
+}
+.marketHide {
+  width:10px;
+  height:10px;
+  background:#d8d8d8;
+}
+.marketHide:checked + .marketInfo{
+  display: none;
+}
+.marketInfo {
+  display: block;
+  width:800px;
+  margin:auto;
+  overflow: hidden;
+}
+.round-winner {
+  background:#75cc43;
+}
+td {
+  border:1px solid #282828;
+}
+table {
+  border:1px solid #282828;
+  border-collapse: collapse;
+  text-align: center;
+  margin:auto;
+  margin-bottom:30px;
+}
+main h1 {
+  font-size:3em;
+  text-align: center;
+}
+#myChart {
+  height:400px;
+}
+.chart-size {
+  height:400px;
+  width:400px;
+  float: left;
+}

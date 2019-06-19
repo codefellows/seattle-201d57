@@ -1,0 +1,33 @@
+#main{
+    border: solid;
+    width: 960px;
+    margin:auto;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    display: inline-block;
+    width: 200px;
+    height:200px;
+    padding: 50px;
+
+}
+#left-image{
+    padding-left: 70px;
+}
+.container{
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+}
+#totals-list{
+   columns: 4;
+  -webkit-columns: 4;
+  -moz-columns: 4;
+}
+#totals-list > li{
+    padding-bottom: 15px;
+}

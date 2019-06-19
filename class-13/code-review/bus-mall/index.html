@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bus Mall</title>
+  <link rel="stylesheet" href="./public/styles/reset.css">
+  <link rel="stylesheet" href="./public/styles/style.css">
+
+</head>
+
+<body>
+  <main class="content">
+    <h1>Pick your favorite product!</h1>
+    <hr>
+    <table id="image-table" class="content">
+      <tr>
+        <!-- Three Random images go here-->
+        <td id="img-0"></td>
+        <td id="img-1"></td>
+        <td id="img-2"></td>
+      </tr>
+    </table>
+  </main>
+  <input type="checkbox" checked class="marketHide">
+  <section class="content marketInfo">
+    <h2>Marketing</h2>
+    <section class="chart-size">
+        <canvas id="myChart" width="400" height="400"></canvas>
+    </section>
+    <section class="chart-size">
+      <canvas id="productPower" width="400" height="400"></canvas>
+  </section>
+  </section>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+<script src="./public/js/app.js"></script>
+
+</html>

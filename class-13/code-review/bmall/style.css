@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 95%;
+  margin: auto;
+}
+
+header {
+  border-bottom: 3px solid black;
+  height: 150;
+  padding: 2vh;
+  width: 100%;
+  position: relative;
+}
+
+header > img {
+  height: 100px;
+}
+
+header > h1 {
+  display: inline;
+  position: absolute;
+  top: 15%;
+  margin-left: 2vw;
+  font-size: 3em;
+}
+
+header > nav {
+  float: right;
+}
+
+header > nav > ul {
+  position: absolute;
+  top: 35%;
+  right: 1vw;
+}
+
+header > nav > ul > li {
+  color: white;
+  background-color: blue;
+  border: 2px solid black;
+  border-radius: 50px;
+  display: inline;
+  padding: 1vw;
+  font-size: 1.5em;
+}
+
+main {
+  height: 60vh;
+  width: 100%;
+  margin: auto;
+}
+
+main > section {
+  align-content: center;
+  width: 73vw;
+  margin: auto;
+}
+
+main > section > h2 {
+  text-align: center;
+  font-size: 3em;
+  margin: 0;
+}
+
+main > section > ul {
+  padding: 0 40px 0 40px;
+}
+main > section > ul > li {
+  display: inline;
+  width: 25vw;
+}
+
+main > section > ul > li > article {
+  width: 20vw;
+  display: inline-block;
+}
+
+main > section > ul > li > article > img {
+  width: 20vw;
+  height: 30vh;
+}
+
+main > section > ul > li > article > h3 {
+  text-align: center;
+  margin: 0px;
+  width: 20vw;
+}
+
+section#results-chart {
+  width: 150vw;
+  margin: auto;
+}
+
+#busResults {
+  display: block;
+  width: 1033px;
+  height: 621px;
+  margin: auto;
+}
+
+#results {
+  width: 200px;
+  height: 350px;
+}
